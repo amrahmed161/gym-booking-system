@@ -43,7 +43,7 @@ class DatabaseSeeder extends Seeder
             ]);
         }
 
-        // 7. Bookings - حجوزات عشوائية لأعضاء في مواعيد موجودة
+
         Booking::factory()
             ->count(25)
             ->recycle($users)
